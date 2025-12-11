@@ -1,0 +1,16 @@
+name: ai_x2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - fastapi==0.104.1
+    - uvicorn[standard]==0.24.0
+    - google-generativeai
+    - httpx==0.25.0
+    - python-dotenv==1.0.0
+    - python-multipart==0.0.6
+    - packaging
+
